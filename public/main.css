@@ -1,0 +1,13 @@
+.single-task
+{
+    background-color:blanchedalmond;
+    height:auto;
+    width: 200px;
+    border:solid;
+    border-color: black;
+    text-align: center;
+}
+.delete-btn{
+   background-color: transparent;
+    border:transparent;
+}

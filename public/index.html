@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!--css file-->
+    <link rel="stylesheet" href="./main.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!--font awesome icons-->
+    <script src="https://kit.fontawesome.com/f5688bff63.js" crossorigin="anonymous"></script>
+
+    <title>Task manager</title>
+
+    <!--axios-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" defer></script>
+
+    <script src="./browserapp.js" defer></script>
+</head>
+<body>
+    <form class="task-form">
+        <h4>Task Manager</h4>
+        <div class="form-control">
+            <input
+             type="text"
+             name="name"
+             class="task-input"
+             placeholder="for eg. play badminton"/>
+
+             <button type="submit" class="submit-btn">submit</button>
+        </div>
+
+        <div class="form-alert"></div>
+        
+    </form>
+
+    <section class="task-container">
+        <p class="Loading-text" style="visibility: visible;">Loading...</p>
+        <div class="tasks"></div>
+    </section>
+
+    
+</body>
+</html>
