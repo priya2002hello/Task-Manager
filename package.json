@@ -4,15 +4,13 @@
   "description": "Stores task ",
   "main": "app.js",
   "scripts": {
-    
-    "test": "echo \"Error: no test specified\" && exit 1"
-    ,"start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/priya2002hello/Task-Manager.git"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,13 +20,11 @@
     "mongoose": "^6.1.6",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7"
-  }
-  ,"devDependencies": {
+  },
+  "devDependencies": {
     "nodemon": "^2.0.7"
   },
-
   "bugs": {
     "url": "https://github.com/priya2002hello/Task-Manager/issues"
   }
-
 }
