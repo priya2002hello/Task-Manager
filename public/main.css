@@ -1,7 +1,5 @@
 body{
-    background-color: 
-    #EEC0C6 #7EE8FA
-    ;
+    background-image: linear-gradient(to right,#7EE8FA ,#EEC0C6);
 }
 .single-task
 {
